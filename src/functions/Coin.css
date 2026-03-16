@@ -1,0 +1,55 @@
+.coin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.coin-box {
+  background: white;
+  color: #0a1628;
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  text-align: center;
+}
+
+.coin-rank {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.coin-identity {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.coin-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.coin-symbol {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.coin-name {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.coin-price {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.4rem;
+}
+
+.coin-change {
+  font-size: 0.9rem;
+  font-weight: 500;
+}

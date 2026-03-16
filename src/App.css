@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a1628;
+  color: white;
+  font-family: sans-serif;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.dashboard h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.search {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  background: white;
+  color: #0a1628;
+  outline: none;
+}
+
+.search::placeholder {
+  color: #999;
+}
+
+.positive { color: #16a34a; }
+.negative { color: #dc2626; }
+
+.loading {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
