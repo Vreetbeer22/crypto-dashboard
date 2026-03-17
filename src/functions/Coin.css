@@ -14,6 +14,16 @@
   align-items: center;
   gap: 0.4rem;
   text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.coin-box:hover {
+  transform: scale(1.05); /* <-- add this */
+}
+
+.coin-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .coin-rank {
