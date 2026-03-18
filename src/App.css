@@ -13,7 +13,7 @@ body {
 #root {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem 2rem;
 }
 
 .dashboard h1 {
@@ -47,4 +47,46 @@ body {
   font-size: 1.2rem;
   text-align: center;
   margin-top: 4rem;
+}
+
+/* ─── HEADER ─────────────────────────── */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.header-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: white;
+}
+
+.header nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.header nav a {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.header nav a:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.header nav a.active {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
 }
